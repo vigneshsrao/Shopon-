@@ -1,0 +1,7 @@
+app.controller("defctrl",function($rootScope,$location) {
+
+$rootScope.hid = 1;
+$sope.log = function(){
+	$location.path('/login');
+	};
+});

@@ -1,0 +1,8 @@
+
+app.controller("retctrl",function($scope,$rootScope) {
+
+$rootScope.hid = "FALSE";
+$scope.retname = function(){
+		return $rootScope.ob;
+     };
+});
